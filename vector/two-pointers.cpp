@@ -1,4 +1,4 @@
-/* Demonstracao do algoritimo Two-Pointers */
+/* Demonstracao do algoritmo Two-Pointers */
 #include <iostream>
 #include <vector>
 #include <string>
