@@ -10,6 +10,10 @@ int main() {
     pilha.push(20);
     pilha.push(30);
     pilha.push(40);
+
+    //Verificar tamanho da pilha com 4 elementos de memoria.
+    std::cout << sizeof(pilha) << " bytes" << std::endl;
+
     std::cout << "Tamanho: " << pilha.size() << std::endl;
     std::cout << "Topo: " << pilha.top() << std::endl;
 
@@ -20,6 +24,8 @@ int main() {
     }
     std::cout << std::endl;
 
-    // TODO: Verificar tamanho a pilha pelo endereco de memoria.
+    //Verificar tamanho da pilha vazia de memoria.
+    std::cout << sizeof(pilha) << " bytes" << std::endl;
+
     return 0;
 }
